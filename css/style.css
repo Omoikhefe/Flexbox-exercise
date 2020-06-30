@@ -1,0 +1,41 @@
+html, body {
+    height: 100%; /* 100% height. This will make sure that your containers take up 100% of the screen. */
+    margin: 0px; /* to remove margins */
+    font-size: 16px;
+}
+
+body { 
+    display: flex; /* add your flexbox property to the CSS body.This tells the computer to switch the body element to start using a flexible layout! That means that anything within the body tags will become flexible elements. :) */
+    justify-content: center; /* center your object horizontally */
+    align-items: center;  /* center your object vertically */
+    background: url('../img/wow.png') no-repeat bottom center;
+    background-size: cover; /* Resize the background image to make sure the image is fully visible */
+    font-size: 1em;
+} 
+
+.centered {
+    padding: 0 3.125em;
+    font-family: 'Montserrat', sans-serif;
+    background: #f16059;
+}
+
+h1 {
+    font-size: 2em;
+    color: #fff;
+    text-align: center;
+}
+
+@media screen and (min-width: 786px) {
+    h1 {
+      font-size: 3em;
+    }
+  }
+   
+  @media screen and (min-width: 1200px) {
+    h1 {
+      font-size: 4em;
+    }
+  }
+
+
+
